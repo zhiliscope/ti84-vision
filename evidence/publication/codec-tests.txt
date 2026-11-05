@@ -1,0 +1,9 @@
+PASS: 266787 fragmentation/corruption cases; CRC known vector; noise/bounds
+test_c_python_crc_agreement (test_wire.WireTests) ... ok
+test_golden_ping (test_wire.WireTests) ... ok
+test_stream_and_recovery (test_wire.WireTests) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.595s
+
+OK

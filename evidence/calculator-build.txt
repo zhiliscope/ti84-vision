@@ -1,0 +1,10 @@
+[cc] ../common/wire.c
+[cc] src/main.c
+[lto] obj/lto.bc
+ez80-clang: warning: argument unused during compilation: '-I ../common' [-Wunused-command-line-argument]
+<WORKSPACE>/work/cedev/binutils/bin/z80-none-elf-ld: warning: atomic_load_increasing_32.o: missing .note.GNU-stack section implies executable stack
+<WORKSPACE>/work/cedev/binutils/bin/z80-none-elf-ld: NOTE: This behaviour is deprecated and will be removed in a future version of the linker
+[linking] bin/TIVISION.obj
+<WORKSPACE>/work/cedev/binutils/bin/z80-none-elf-ld: warning: obj/crt0.o: missing .note.GNU-stack section implies executable stack
+<WORKSPACE>/work/cedev/binutils/bin/z80-none-elf-ld: NOTE: This behaviour is deprecated and will be removed in a future version of the linker
+[success] bin/TIVISION.8xp, 16829 bytes.

@@ -1,0 +1,24 @@
+{
+  "date": "2026-11-05",
+  "host": "macOS arm64",
+  "esp_idf": "5.4.2",
+  "esp_idf_commit": "f5c3654a1c2d2a01f7f67def7a0dc48e691f63c0",
+  "cedev": "15.0",
+  "cedev_source_commit": "07fe80429f549a826b08f60587f31f50094b6063",
+  "idf_component_manager": "2.2.1",
+  "python": "Python 3.9.6",
+  "artifacts": {
+    "calculator": {
+      "bytes": 16829,
+      "sha256": "6ccbdc3c2486d3bf63b5ef57196e06b58626676c58b2915cc72e90fed36adf51"
+    },
+    "esp_base": {
+      "bytes": 261632,
+      "sha256": "ef7aacea17f778725b08f29b5a2a29f98cefc4b6a659c17dc93a6f371d12b0f3"
+    },
+    "esp_compile_all": {
+      "bytes": 1111040,
+      "sha256": "05120bf7f0718a3a6196401e908169d74138364ce199287373aaf27b601a1adf"
+    }
+  }
+}

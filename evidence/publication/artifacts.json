@@ -1,0 +1,14 @@
+{
+  "calculator": {
+    "bytes": 16829,
+    "sha256": "d629d88fd5d3270b971695c91a0408bc8ec0825586992861d495848923f8240c"
+  },
+  "esp_base": {
+    "bytes": 261632,
+    "sha256": "ef7aacea17f778725b08f29b5a2a29f98cefc4b6a659c17dc93a6f371d12b0f3"
+  },
+  "esp_compile_all": {
+    "bytes": 1111040,
+    "sha256": "05120bf7f0718a3a6196401e908169d74138364ce199287373aaf27b601a1adf"
+  }
+}

@@ -1,0 +1,4 @@
+# Keep source and documentation consistent across developer machines.
+* text=auto eol=lf
+# Preserve the component manager's canonical generated lock formatting.
+firmware/dependencies.lock -whitespace

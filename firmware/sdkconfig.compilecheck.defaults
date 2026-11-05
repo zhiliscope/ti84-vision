@@ -1,0 +1,5 @@
+# Compile/link only. No hardware-pass flag is set. app_main refuses operation.
+CONFIG_TV_COMPILE_CHECK=y
+CONFIG_TV_SELF_POWERED=y
+# Arbitrary type-check fixture, NOT an assigned or verified board sense pin.
+CONFIG_TV_VBUS_GPIO=21

@@ -1,0 +1,6 @@
+42014d48 T esp_camera_init
+4204372c T esp_http_client_open
+4200f880 T tinyusb_driver_install
+4200fe10 T tusb_cdc_acm_init
+4200dd14 T tv_vision_ask
+4200e154 T tv_wifi_connect

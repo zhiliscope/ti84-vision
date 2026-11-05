@@ -1,0 +1,29 @@
+menu "TI Vision hardware gates"
+config TV_COMPILE_CHECK
+    bool "Compile all modules for API checking; app_main refuses operation"
+    default n
+config TV_POWER_APPROVED
+    bool "Board supply, isolation, host budget and adapter verified"
+    default n
+    help
+        USB is not installed until this is acknowledged. See docs/HARDWARE.md.
+config TV_SELF_POWERED
+    bool "Board is isolated and self powered with host VBUS sensing"
+    default n
+config TV_VBUS_GPIO
+    int "GPIO connected to verified host VBUS divider/comparator"
+    depends on TV_SELF_POWERED
+    range 0 48
+    default 0
+config TV_USB_MILESTONE_PASSED
+    bool "Real calculator USB PING/PONG milestone has passed"
+    default n
+config TV_ENABLE_CAMERA
+    bool "Enable experimental camera module (verified board_pins.h required)"
+    depends on TV_USB_MILESTONE_PASSED
+    default n
+config TV_ENABLE_NETWORK
+    bool "Enable experimental Wi-Fi / HTTPS module"
+    depends on TV_ENABLE_CAMERA
+    default n
+endmenu
